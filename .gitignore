@@ -1,0 +1,17 @@
+# Note: the .claude/ folder is ignored by its own self-ignoring .claude/.gitignore
+
+# Secrets
+.env
+*.key
+kaggle.json
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Kaggle data / artifacts
+data/
+*.zip
+.aicomp/
