@@ -1,0 +1,12 @@
+v14 watcher start 15:57:36
+[15:57:37] abdullllkhan/ai-agent-security-attack has status "KernelWorkerStatus.RUNNING"
+[15:58:37] abdullllkhan/ai-agent-security-attack has status "KernelWorkerStatus.RUNNING"
+[15:59:40] abdullllkhan/ai-agent-security-attack has status "KernelWorkerStatus.COMPLETE"
+>> COMPLETE -> submit v14
+3 submissions remaining today.
+>> SUBMIT_ATTEMPTED
+     ref  fileName        date                        description                                                                                                                                                                                                                  status                     publicScore  privateScore  
+--------  --------------  --------------------------  ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  -------------------------  -----------  ------------  
+55874450  submission.csv  2026-08-29 19:59:40.780000  v14 THROUGHPUT-ADAPTIVE: probe fn+nothink per cell, lock fastest-firing. Board runs gpt-oss GGUF (locks fn) + gemma-4-26B GGUF (locks nothink, ~+18% gemma throughput). Both cells fire; per-cell optimum vs v10 fn-both.    SubmissionStatus.PENDING                              
+55856095  submission.csv  2026-08-29 00:24:37.733000  v13: fn(gpt-oss) + refined 9-style gemma portfolio. Adds benign/jailbreak framings (telemetry/pipeline/content-type) to dodge gemma REFUSAL; drops gcopy. Parallel refusal-dodge test vs v12 anti-fence. gpt-oss==v10(57.2)  SubmissionStatus.COMPLETE  57.190                     
+55850813  submission.csv  2026-08-28 18:04:15.680000  v12 adaptive: fn(gpt-oss) + gemma bare-JSON PORTFOLIO (7 framings; board live-validation locks whichever yields unfenced JSON). gpt-oss==v10(57.2); gemma retry after gecho didnt transfer in v11                            SubmissionStatus.COMPLETE  57.205                     

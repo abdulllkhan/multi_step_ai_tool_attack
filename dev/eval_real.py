@@ -53,7 +53,7 @@ def _shared_agent_factory(model: str):
 
         print(f"Loading {model} backend once (GB10)...", flush=True)
         t = time.time()
-        backend = build_gpt_oss_backend()
+        backend = build_gpt_oss_backend(torch_dtype="bfloat16")  # avoid broken mxfp4 triton path on GB10
         print(f"  loaded in {time.time() - t:.0f}s", flush=True)
         return lambda: GPTOSSAgent(backend=backend)
     if model in ("gemma", "gemma_4"):

@@ -1,0 +1,32 @@
+loading gemma_4 backend (dtype=bfloat16)...
+Loading weights:   0%|          | 0/1013 [00:00<?, ?it/s]Loading weights:   0%|          | 2/1013 [00:17<2:25:10,  8.62s/it]Loading weights:   1%|          | 8/1013 [00:17<27:33,  1.64s/it]  Loading weights:   1%|▏         | 14/1013 [00:26<26:30,  1.59s/it]Loading weights:   3%|▎         | 28/1013 [00:26<09:27,  1.74it/s]Loading weights:   4%|▍         | 38/1013 [00:35<11:35,  1.40it/s]Loading weights:   4%|▍         | 43/1013 [00:36<09:04,  1.78it/s]Loading weights:   5%|▍         | 50/1013 [00:36<06:20,  2.53it/s]Loading weights:   6%|▋         | 64/1013 [00:36<03:23,  4.66it/s]Loading weights:   7%|▋         | 72/1013 [00:45<07:25,  2.11it/s]Loading weights:   8%|▊         | 77/1013 [00:45<06:01,  2.59it/s]Loading weights:   8%|▊         | 85/1013 [00:54<09:36,  1.61it/s]Loading weights:   9%|▊         | 88/1013 [00:55<08:26,  1.83it/s]Loading weights:  10%|█         | 105/1013 [00:55<03:55,  3.86it/s]Loading weights:  11%|█         | 111/1013 [01:01<06:21,  2.37it/s]Loading weights:  11%|█▏        | 115/1013 [01:01<05:24,  2.77it/s]Loading weights:  12%|█▏        | 118/1013 [01:01<04:42,  3.17it/s]Loading weights:  13%|█▎        | 127/1013 [01:12<09:30,  1.55it/s]Loading weights:  14%|█▎        | 138/1013 [01:12<05:39,  2.58it/s]Loading weights:  14%|█▎        | 138/1013 [01:30<05:39,  2.58it/s]Loading weights:  15%|█▍        | 147/1013 [01:33<14:40,  1.02s/it]Loading weights:  19%|█▉        | 192/1013 [01:33<04:13,  3.23it/s]Loading weights:  20%|██        | 206/1013 [01:43<05:32,  2.43it/s]Loading weights:  21%|██▏       | 217/1013 [01:44<04:21,  3.04it/s]Loading weights:  23%|██▎       | 229/1013 [01:54<05:58,  2.19it/s]Loading weights:  24%|██▎       | 240/1013 [01:54<04:30,  2.85it/s]Loading weights:  25%|██▍       | 250/1013 [02:04<06:33,  1.94it/s]Loading weights:  26%|██▌       | 261/1013 [02:05<04:47,  2.62it/s]Loading weights:  27%|██▋       | 269/1013 [02:15<07:13,  1.71it/s]Loading weights:  27%|██▋       | 270/1013 [02:15<07:00,  1.77it/s]Loading weights:  28%|██▊       | 281/1013 [02:16<04:30,  2.70it/s]Loading weights:  28%|██▊       | 287/1013 [02:26<08:06,  1.49it/s]Loading weights:  29%|██▉       | 292/1013 [02:26<06:24,  1.88it/s]Loading weights:  30%|██▉       | 301/1013 [02:26<04:09,  2.85it/s]Loading weights:  30%|███       | 307/1013 [02:26<03:12,  3.67it/s]Loading weights:  31%|███       | 312/1013 [02:37<08:01,  1.45it/s]Loading weights:  31%|███       | 314/1013 [02:37<07:09,  1.63it/s]Loading weights:  32%|███▏      | 326/1013 [02:37<03:34,  3.20it/s]Loading weights:  33%|███▎      | 332/1013 [02:48<07:59,  1.42it/s]Loading weights:  33%|███▎      | 336/1013 [02:48<06:25,  1.76it/s]Loading weights:  34%|███▍      | 345/1013 [02:48<03:55,  2.84it/s]Loading weights:  35%|███▍      | 351/1013 [02:48<02:59,  3.69it/s]Loading weights:  35%|███▌      | 356/1013 [02:59<08:04,  1.36it/s]Loading weights:  35%|███▌      | 358/1013 [02:59<07:08,  1.53it/s]Loading weights:  37%|███▋      | 370/1013 [02:59<03:29,  3.07it/s]Loading weights:  37%|███▋      | 375/1013 [03:03<04:28,  2.37it/s]Loading weights:  37%|███▋      | 379/1013 [03:10<07:26,  1.42it/s]Loading weights:  38%|███▊      | 382/1013 [03:10<06:09,  1.71it/s]Loading weights:  39%|███▊      | 392/1013 [03:11<03:24,  3.04it/s]Loading weights:  39%|███▉      | 395/1013 [03:11<02:57,  3.48it/s]Loading weights:  39%|███▉      | 398/1013 [03:21<08:40,  1.18it/s]Loading weights:  40%|███▉      | 402/1013 [03:21<06:22,  1.60it/s]Loading weights:  41%|████      | 413/1013 [03:21<03:16,  3.05it/s]Loading weights:  65%|██████▌   | 662/1013 [03:21<00:06, 52.65it/s]Loading weights:  73%|███████▎  | 737/1013 [03:22<00:04, 56.43it/s]Loading weights:  78%|███████▊  | 792/1013 [03:23<00:03, 59.20it/s]Loading weights:  82%|████████▏ | 833/1013 [03:24<00:02, 61.84it/s]Loading weights:  85%|████████▌ | 864/1013 [03:24<00:02, 61.88it/s]Loading weights:  88%|████████▊ | 888/1013 [03:25<00:01, 63.06it/s]Loading weights:  90%|████████▉ | 907/1013 [03:25<00:01, 60.26it/s]Loading weights:  91%|█████████ | 922/1013 [03:25<00:01, 61.75it/s]Loading weights:  92%|█████████▏| 935/1013 [03:25<00:01, 63.07it/s]Loading weights:  93%|█████████▎| 947/1013 [03:25<00:01, 62.41it/s]Loading weights:  94%|█████████▍| 957/1013 [03:26<00:00, 62.18it/s]Loading weights:  96%|█████████▌| 968/1013 [03:26<00:00, 54.65it/s]Loading weights:  97%|█████████▋| 984/1013 [03:26<00:00, 65.99it/s]Loading weights:  99%|█████████▊| 998/1013 [03:26<00:00, 76.66it/s]Loading weights: 100%|█████████▉| 1009/1013 [03:27<00:00, 51.02it/s]Loading weights: 100%|██████████| 1013/1013 [03:27<00:00,  4.89it/s]
+Some parameters are on the meta device because they were offloaded to the cpu.
+loaded 213s (Gemma4Agent)
+
+============================================================================
+PHASE A [gemma_4] decomposition (K=6, hop cap=4)
+============================================================================
+    [single-v9 #0] ERR ValueError('Cannot use apply_chat_template because this processor does not have 
+  single-v9        ALL-ERR/NOFIRE
+    [single-fn #0] ERR ValueError('Cannot use apply_chat_template because this processor does not have 
+  single-fn        ALL-ERR/NOFIRE
+    [single-term #0] ERR ValueError('Cannot use apply_chat_template because this processor does not have 
+  single-term      ALL-ERR/NOFIRE
+    [mh-batch-4 #0] ERR ValueError('Cannot use apply_chat_template because this processor does not have 
+  mh-batch-4       ALL-ERR/NOFIRE
+    [mh-batch-8 #0] ERR ValueError('Cannot use apply_chat_template because this processor does not have 
+  mh-batch-8       ALL-ERR/NOFIRE
+    [mh-fewshot-8 #0] ERR ValueError('Cannot use apply_chat_template because this processor does not have 
+  mh-fewshot-8     ALL-ERR/NOFIRE
+
+  RANK(proj): [('single-v9', None), ('single-fn', None), ('single-term', None), ('mh-batch-4', None), ('mh-batch-8', None), ('mh-fewshot-8', None)]
+
+============================================================================
+PHASE B [gemma_4] eval_attack (budget=200.0s)
+============================================================================
+  single-v9                  score=   0.000 N=   0 (189s)
+  single-v9 best             score=   0.000 N=   0 (189s)
+
+  RANK(real): [('single-v9', 0.0), ('single-v9 best', 0.0)]
+
+DONE

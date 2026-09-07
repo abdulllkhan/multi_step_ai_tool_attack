@@ -1,0 +1,12 @@
+installing llama-cpp-python 13:45:19...
+CUDA build (nvcc found)
+  Building wheel for llama-cpp-python (pyproject.toml): still running...
+  Building wheel for llama-cpp-python (pyproject.toml): finished with status 'done'
+  Created wheel for llama-cpp-python: filename=llama_cpp_python-0.3.35-py3-none-linux_aarch64.whl size=143383820 sha256=978c9c58d3b05e36b091a9db161d5f2f8bcf4b8891d2440204e15e9b944ceeb5
+  Stored in directory: /tmp/pip-ephem-wheel-cache-19um_xj3/wheels/1b/64/d4/17744d793e69b485a7664ef47b18e402a72a6e08e84f7b9926
+Successfully built llama-cpp-python
+Installing collected packages: diskcache, llama-cpp-python
+
+Successfully installed diskcache-5.6.3 llama-cpp-python-0.3.35
+llama_cpp OK 0.3.35
+install done 13:51:24

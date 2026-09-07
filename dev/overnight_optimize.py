@@ -53,7 +53,7 @@ def _shared_agent_factory(model: str):
     if model == "gpt_oss":
         from aicomp_sdk.agents.gpt_oss_agent import GPTOSSAgent, build_gpt_oss_backend
         print(f"Loading {model} backend once (GB10)...", flush=True)
-        t = time.time(); backend = build_gpt_oss_backend()
+        t = time.time(); backend = build_gpt_oss_backend(torch_dtype="bfloat16")  # avoid broken mxfp4 triton path on GB10
         print(f"  loaded in {time.time()-t:.0f}s", flush=True)
         return lambda: GPTOSSAgent(backend=backend)
     if model in ("gemma", "gemma_4"):

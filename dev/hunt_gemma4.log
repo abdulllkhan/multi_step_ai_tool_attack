@@ -1,0 +1,10 @@
+llama_kv_cache_iswa: using full-size SWA cache (ref: https://github.com/ggml-org/llama.cpp/pull/13194#issuecomment-2868343055)
+llama_kv_cache: the V embeddings have different sizes across layers and FA is not enabled - padding V cache to 2048
+llama_kv_cache: the V embeddings have different sizes across layers and FA is not enabled - padding V cache to 2048
+loaded
+• nothink  /cand= 0.90s fire=1.00
+• go       /cand= 1.21s fire=1.00
+• skip     /cand= 0.80s fire=1.00
+• just     /cand= 0.80s fire=1.00
+• emit     /cand= 0.78s fire=1.00
+• imm      /cand= 0.79s fire=1.00

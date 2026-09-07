@@ -1,0 +1,17 @@
+watch_all start 2026-08-28_00:31:33 — poll v10(55832820) score + gemma-3-4b license, 20min ticks, ~5h heartbeat
+[00:31:34] tick 1/15 — v10 pending, gemma-3-4b still gated
+[00:51:35] tick 2/15 — v10 pending, gemma-3-4b still gated
+[01:11:36] tick 3/15 — v10 pending, gemma-3-4b still gated
+[01:31:37] tick 4/15 — v10 pending, gemma-3-4b still gated
+[01:51:37] tick 5/15 — v10 pending, gemma-3-4b still gated
+[02:11:38] tick 6/15 — v10 pending, gemma-3-4b still gated
+[02:31:39] tick 7/15 — v10 pending, gemma-3-4b still gated
+[02:51:41] tick 8/15 — v10 pending, gemma-3-4b still gated
+[03:11:43] tick 9/15 — v10 pending, gemma-3-4b still gated
+[03:31:43] tick 10/15 — v10 pending, gemma-3-4b still gated
+[03:51:46] tick 11/15 — v10 pending, gemma-3-4b still gated
+[04:11:47] tick 12/15 — v10 pending, gemma-3-4b still gated
+[04:31:47] tick 13/15 — v10 pending, gemma-3-4b still gated
+[04:51:48] tick 14/15 — v10 pending, gemma-3-4b still gated
+[05:11:50] tick 15/15 — v10 pending, gemma-3-4b still gated
+[05:31:50] 5h heartbeat — nothing changed

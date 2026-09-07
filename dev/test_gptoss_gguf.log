@@ -1,0 +1,6 @@
+GGUF: /home/abdulllkhan/.cache/huggingface/hub/models--unsloth--gpt-oss-20b-GGUF/snapshots/d449b42d93e1c2c7bda5312f5c25c8fb91dfa9b4/gpt-oss-20b-Q4_K_M.gguf
+loading gpt-oss GGUF (llama.cpp, GPU)...
+llama_kv_cache_iswa: using full-size SWA cache (ref: https://github.com/ggml-org/llama.cpp/pull/13194#issuecomment-2868343055)
+loaded 1s
+• fn     /cand= 1.37s fire=1.00 posts=1.00 rate=0.730fires/s
+• nothink /cand= 3.81s fire=1.00 posts=1.00 rate=0.263fires/s

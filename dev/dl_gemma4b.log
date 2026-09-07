@@ -1,0 +1,5 @@
+attempt 1 14:00:45...
+    raise mapped_exc(message) from exc
+httpx.ConnectError: [Errno -3] Temporary failure in name resolution
+SUCCESS
+24K	/home/abdulllkhan/.cache/huggingface/hub/models--unsloth--gemma-4-26B-A4B-it-GGUF

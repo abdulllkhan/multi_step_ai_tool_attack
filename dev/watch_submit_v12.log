@@ -1,0 +1,11 @@
+v12 watcher start 14:03:13
+[14:03:14] abdullllkhan/ai-agent-security-attack has status "KernelWorkerStatus.RUNNING"
+[14:04:15] abdullllkhan/ai-agent-security-attack has status "KernelWorkerStatus.COMPLETE"
+>> COMPLETE -> submit v12
+2 submissions remaining today.
+>> SUBMIT_ATTEMPTED
+     ref  fileName        date                        description                                                                                                                                                                                        status                     publicScore  privateScore  
+--------  --------------  --------------------------  -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  -------------------------  -----------  ------------  
+55850813  submission.csv  2026-08-28 18:04:15.680000  v12 adaptive: fn(gpt-oss) + gemma bare-JSON PORTFOLIO (7 framings; board live-validation locks whichever yields unfenced JSON). gpt-oss==v10(57.2); gemma retry after gecho didnt transfer in v11  SubmissionStatus.PENDING                              
+55834790  submission.csv  2026-08-28 05:23:22.877000  v11 adaptive per-cell: fn(gpt-oss)+gecho JSON-echo(gemma). Unlocks gemma cell 0->firing (local N=22/120s, gecho fire=1.00); gpt-oss unchanged from v10                                             SubmissionStatus.COMPLETE  56.945                     
+55832820  submission.csv  2026-08-28 03:47:34.807000  v10 fn-syntax EXFIL: 2.1x throughput vs v9 (local 4.0 vs 8.3s/cand, fire=1.00; end-to-end 5.13 vs 2.43)                                                                                            SubmissionStatus.COMPLETE  57.205                     

@@ -1,0 +1,56 @@
+styles: ['v9', 'v9stop', 'term', 'fn', 'cmd']
+Loading gpt-oss backend once (GB10)...
+Fetching 42 files:   0%|          | 0/42 [00:00<?, ?it/s]Fetching 42 files: 100%|██████████| 42/42 [00:00<00:00, 2805.20it/s]
+Loading weights:   0%|          | 0/411 [00:00<?, ?it/s]Loading weights:   1%|          | 5/411 [00:00<01:13,  5.55it/s]Loading weights:   2%|▏         | 7/411 [00:02<02:45,  2.44it/s]Loading weights:   5%|▌         | 22/411 [00:03<00:49,  7.93it/s]Loading weights:   6%|▌         | 24/411 [00:04<01:21,  4.75it/s]Loading weights:  10%|▉         | 41/411 [00:06<00:51,  7.13it/s]Loading weights:  14%|█▎        | 56/411 [00:07<00:36,  9.80it/s]Loading weights:  14%|█▍        | 58/411 [00:08<00:54,  6.49it/s]Loading weights:  18%|█▊        | 73/411 [00:09<00:37,  9.12it/s]Loading weights:  18%|█▊        | 75/411 [00:11<00:56,  5.95it/s]Loading weights:  22%|██▏       | 90/411 [00:12<00:37,  8.63it/s]Loading weights:  22%|██▏       | 92/411 [00:13<00:53,  5.91it/s]Loading weights:  26%|██▌       | 107/411 [00:14<00:35,  8.68it/s]Loading weights:  27%|██▋       | 109/411 [00:16<00:51,  5.83it/s]Loading weights:  30%|███       | 124/411 [00:16<00:33,  8.61it/s]Loading weights:  31%|███       | 126/411 [00:18<00:47,  5.95it/s]Loading weights:  35%|███▍      | 143/411 [00:20<00:35,  7.61it/s]Loading weights:  38%|███▊      | 158/411 [00:20<00:25,  9.87it/s]Loading weights:  39%|███▉      | 160/411 [00:22<00:37,  6.64it/s]Loading weights:  43%|████▎     | 175/411 [00:23<00:25,  9.14it/s]Loading weights:  43%|████▎     | 177/411 [00:24<00:37,  6.24it/s]Loading weights:  47%|████▋     | 192/411 [00:25<00:25,  8.75it/s]Loading weights:  47%|████▋     | 194/411 [00:27<00:36,  6.02it/s]Loading weights:  51%|█████     | 209/411 [00:28<00:23,  8.70it/s]Loading weights:  51%|█████▏    | 211/411 [00:29<00:34,  5.80it/s]Loading weights:  55%|█████▍    | 226/411 [00:30<00:22,  8.41it/s]Loading weights:  55%|█████▌    | 228/411 [00:32<00:31,  5.78it/s]Loading weights:  59%|█████▉    | 243/411 [00:33<00:20,  8.34it/s]Loading weights:  60%|█████▉    | 245/411 [00:34<00:29,  5.59it/s]Loading weights:  63%|██████▎   | 260/411 [00:35<00:19,  7.69it/s]Loading weights:  64%|██████▎   | 262/411 [00:37<00:27,  5.37it/s]Loading weights:  67%|██████▋   | 277/411 [00:38<00:16,  8.13it/s]Loading weights:  68%|██████▊   | 279/411 [00:39<00:24,  5.45it/s]Loading weights:  72%|███████▏  | 294/411 [00:40<00:14,  7.90it/s]Loading weights:  72%|███████▏  | 296/411 [00:42<00:23,  4.98it/s]Loading weights:  76%|███████▌  | 311/411 [00:43<00:11,  8.83it/s]Loading weights:  76%|███████▋  | 314/411 [00:44<00:16,  6.03it/s]Loading weights:  80%|███████▉  | 328/411 [00:45<00:09,  8.52it/s]Loading weights:  80%|████████  | 330/411 [00:47<00:13,  5.84it/s]Loading weights:  84%|████████▍ | 345/411 [00:47<00:07,  8.68it/s]Loading weights:  84%|████████▍ | 347/411 [00:49<00:11,  5.79it/s]Loading weights:  88%|████████▊ | 362/411 [00:50<00:05,  8.23it/s]Loading weights:  89%|████████▊ | 364/411 [00:52<00:08,  5.51it/s]Loading weights:  92%|█████████▏| 379/411 [00:53<00:03,  8.24it/s]Loading weights:  93%|█████████▎| 381/411 [00:54<00:05,  5.68it/s]Loading weights:  96%|█████████▋| 396/411 [00:55<00:01,  8.12it/s]Loading weights:  97%|█████████▋| 398/411 [00:57<00:02,  5.38it/s]Loading weights: 100%|██████████| 411/411 [00:57<00:00,  7.16it/s]
+  loaded in 62s
+
+======================================================================
+PHASE A: per-candidate replay decomposition (K=6/style, hops=4)
+======================================================================
+    [v9 #0] interact ERROR ValueError('Pointer argument cannot be accessed from Triton (cpu tensor?)')
+    [v9 #1] interact ERROR ValueError('Pointer argument cannot be accessed from Triton (cpu tensor?)')
+    [v9 #2] interact ERROR ValueError('Pointer argument cannot be accessed from Triton (cpu tensor?)')
+    [v9 #3] interact ERROR ValueError('Pointer argument cannot be accessed from Triton (cpu tensor?)')
+    [v9 #4] interact ERROR ValueError('Pointer argument cannot be accessed from Triton (cpu tensor?)')
+    [v9 #5] interact ERROR ValueError('Pointer argument cannot be accessed from Triton (cpu tensor?)')
+  v9       env= 0.22s gen=  0.65s /cand=  0.87s fire=0.00 hops=0.0 posts=0.0 asst_len=   0  ->projN@9000=   0 score~0.0
+    [v9stop #0] interact ERROR ValueError('Pointer argument cannot be accessed from Triton (cpu tensor?)')
+    [v9stop #1] interact ERROR ValueError('Pointer argument cannot be accessed from Triton (cpu tensor?)')
+    [v9stop #2] interact ERROR ValueError('Pointer argument cannot be accessed from Triton (cpu tensor?)')
+    [v9stop #3] interact ERROR ValueError('Pointer argument cannot be accessed from Triton (cpu tensor?)')
+    [v9stop #4] interact ERROR ValueError('Pointer argument cannot be accessed from Triton (cpu tensor?)')
+    [v9stop #5] interact ERROR ValueError('Pointer argument cannot be accessed from Triton (cpu tensor?)')
+  v9stop   env= 0.07s gen=  0.19s /cand=  0.27s fire=0.00 hops=0.0 posts=0.0 asst_len=   0  ->projN@9000=   0 score~0.0
+    [term #0] interact ERROR ValueError('Pointer argument cannot be accessed from Triton (cpu tensor?)')
+    [term #1] interact ERROR ValueError('Pointer argument cannot be accessed from Triton (cpu tensor?)')
+    [term #2] interact ERROR ValueError('Pointer argument cannot be accessed from Triton (cpu tensor?)')
+    [term #3] interact ERROR ValueError('Pointer argument cannot be accessed from Triton (cpu tensor?)')
+    [term #4] interact ERROR ValueError('Pointer argument cannot be accessed from Triton (cpu tensor?)')
+    [term #5] interact ERROR ValueError('Pointer argument cannot be accessed from Triton (cpu tensor?)')
+  term     env= 0.07s gen=  0.16s /cand=  0.23s fire=0.00 hops=0.0 posts=0.0 asst_len=   0  ->projN@9000=   0 score~0.0
+    [fn #0] interact ERROR ValueError('Pointer argument cannot be accessed from Triton (cpu tensor?)')
+    [fn #1] interact ERROR ValueError('Pointer argument cannot be accessed from Triton (cpu tensor?)')
+    [fn #2] interact ERROR ValueError('Pointer argument cannot be accessed from Triton (cpu tensor?)')
+    [fn #3] interact ERROR ValueError('Pointer argument cannot be accessed from Triton (cpu tensor?)')
+    [fn #4] interact ERROR ValueError('Pointer argument cannot be accessed from Triton (cpu tensor?)')
+    [fn #5] interact ERROR ValueError('Pointer argument cannot be accessed from Triton (cpu tensor?)')
+  fn       env= 0.07s gen=  0.15s /cand=  0.22s fire=0.00 hops=0.0 posts=0.0 asst_len=   0  ->projN@9000=   0 score~0.0
+    [cmd #0] interact ERROR ValueError('Pointer argument cannot be accessed from Triton (cpu tensor?)')
+    [cmd #1] interact ERROR ValueError('Pointer argument cannot be accessed from Triton (cpu tensor?)')
+    [cmd #2] interact ERROR ValueError('Pointer argument cannot be accessed from Triton (cpu tensor?)')
+    [cmd #3] interact ERROR ValueError('Pointer argument cannot be accessed from Triton (cpu tensor?)')
+    [cmd #4] interact ERROR ValueError('Pointer argument cannot be accessed from Triton (cpu tensor?)')
+    [cmd #5] interact ERROR ValueError('Pointer argument cannot be accessed from Triton (cpu tensor?)')
+  cmd      env= 0.07s gen=  0.16s /cand=  0.23s fire=0.00 hops=0.0 posts=0.0 asst_len=   0  ->projN@9000=   0 score~0.0
+
+  RANK (proj score): [('v9', 0.0, 0.0), ('v9stop', 0.0, 0.0), ('term', 0.0, 0.0), ('fn', 0.0, 0.0), ('cmd', 0.0, 0.0)]
+
+======================================================================
+PHASE B: end-to-end SDK eval_attack score (budget=240.0s/config)
+======================================================================
+  v9-validate(base)      score=  0.000  N=   0  (229s)
+  v9-prebuilt2000        ERROR ValueError('Pointer argument cannot be accessed from Triton (cpu tensor?)')
+
+  RANK (real score): [('v9-validate(base)', 0.0), ('v9-prebuilt2000', None)]
+
+DONE. best_style(proj)=v9 best_reliable=v9

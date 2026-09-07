@@ -1,0 +1,5 @@
+retry gemma-4 GGUF (Xet disabled) 13:50:50...
+  File "/home/abdulllkhan/Documents/multi_step_tool_attack/.venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: [Errno -3] Temporary failure in name resolution
+gemma4 gguf attempt done 13:59:54

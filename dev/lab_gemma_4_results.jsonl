@@ -1,0 +1,9 @@
+{"phase": "meta", "model": "gemma_4", "args": {"model": "gemma_4", "k": 6, "score_budget": 200.0, "dtype": "bfloat16", "skip_b": false}}
+{"phase": "A", "model": "gemma_4", "name": "single-v9", "config": {"k_mode": "single", "prompt_style": "v9"}, "ok": 0}
+{"phase": "A", "model": "gemma_4", "name": "single-fn", "config": {"k_mode": "single", "prompt_style": "fn"}, "ok": 0}
+{"phase": "A", "model": "gemma_4", "name": "single-term", "config": {"k_mode": "single", "prompt_style": "term"}, "ok": 0}
+{"phase": "A", "model": "gemma_4", "name": "mh-batch-4", "config": {"k_mode": "multihop", "multihop_style": "batch", "hops_ask": 4}, "ok": 0}
+{"phase": "A", "model": "gemma_4", "name": "mh-batch-8", "config": {"k_mode": "multihop", "multihop_style": "batch", "hops_ask": 8}, "ok": 0}
+{"phase": "A", "model": "gemma_4", "name": "mh-fewshot-8", "config": {"k_mode": "multihop", "multihop_style": "fewshot", "hops_ask": 8}, "ok": 0}
+{"phase": "B", "model": "gemma_4", "name": "single-v9", "config": {"k_mode": "single", "prompt_style": "v9", "prebuilt": 0}, "score": 0.0, "n_findings": 0, "elapsed_s": 188.9}
+{"phase": "B", "model": "gemma_4", "name": "single-v9 best", "config": {"k_mode": "single", "prompt_style": "v9", "prebuilt": 0}, "score": 0.0, "n_findings": 0, "elapsed_s": 188.9}

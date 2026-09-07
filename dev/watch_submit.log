@@ -1,0 +1,13 @@
+watcher start 23:46:33 — polling kernel abdullllkhan/ai-agent-security-attack for COMPLETE, then submit v10
+[23:46:34] abdullllkhan/ai-agent-security-attack has status "KernelWorkerStatus.RUNNING"
+[23:47:34] abdullllkhan/ai-agent-security-attack has status "KernelWorkerStatus.COMPLETE"
+>> kernel COMPLETE -> submitting v10
+4 submissions remaining today.
+>> SUBMIT_ATTEMPTED
+=== current submissions ===
+     ref  fileName        date                        description                                                                                              status                     publicScore  privateScore  
+--------  --------------  --------------------------  -------------------------------------------------------------------------------------------------------  -------------------------  -----------  ------------  
+55832820  submission.csv  2026-08-28 03:47:34.807000  v10 fn-syntax EXFIL: 2.1x throughput vs v9 (local 4.0 vs 8.3s/cand, fire=1.00; end-to-end 5.13 vs 2.43)  SubmissionStatus.PENDING                              
+55812653  submission.csv  2026-08-27 07:12:51.333000  single-post EXFILTRATION (sev5, 18raw/finding) - replay-dense                                            SubmissionStatus.COMPLETE  47.565                     
+55786304  submission.csv  2026-08-26 05:20:58.797000  multi-send confused-deputy (raw 140 local, 3 hits/finding)                                               SubmissionStatus.COMPLETE  5.140                      
+55786084  submission.csv  2026-08-26 05:08:14.157000  confused-deputy notify pattern (0->0.48 local vs gpt-oss)                                                SubmissionStatus.COMPLETE  5.750                      

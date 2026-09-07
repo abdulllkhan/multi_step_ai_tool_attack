@@ -1,0 +1,4 @@
+llama_kv_cache_iswa: using full-size SWA cache (ref: https://github.com/ggml-org/llama.cpp/pull/13194#issuecomment-2868343055)
+[gpt_oss] trace keys: ['seed', 'user_messages', 'assistant_messages', 'tool_events', 'egress']
+[gpt_oss] assistant_messages: ["'ok'"]
+[gpt_oss] tool_events[0] keys: ['name', 'args', 'ok', 'output', 'side_effect', 'scope', 'source', 'error'] | name: http.post

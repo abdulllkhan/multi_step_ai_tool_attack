@@ -1,0 +1,9 @@
+downloading gemma-4-26B GGUF 13:45:01...
+  File "/home/abdulllkhan/Documents/multi_step_tool_attack/.venv/lib/python3.12/site-packages/huggingface_hub/file_download.py", line 565, in xet_get
+    with session.new_file_download_group(
+RuntimeError: Task error: File reconstruction error: CAS Client Error: Format error: I/O error: error decoding response body
+downloading gpt-oss-20b GGUF 13:48:22...
+'[Errno -3] Temporary failure in name resolution' thrown while requesting HEAD https://huggingface.co/unsloth/gpt-oss-20b-GGUF/resolve/main/gpt-oss-20b-Q4_K_M.gguf
+Retrying in 2s [Retry 2/5].
+GPTOSS GGUF: /home/abdulllkhan/.cache/huggingface/hub/models--unsloth--gpt-oss-20b-GGUF/snapshots/d449b42d93e1c2c7bda5312f5c25c8fb91dfa9b4/gpt-oss-20b-Q4_K_M.gguf
+GGUF downloads done 13:55:16

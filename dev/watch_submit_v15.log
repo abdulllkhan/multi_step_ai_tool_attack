@@ -1,0 +1,11 @@
+v15 watcher start 03:31:30
+[03:31:31] abdullllkhan/ai-agent-security-attack has status "KernelWorkerStatus.RUNNING"
+[03:32:32] abdullllkhan/ai-agent-security-attack has status "KernelWorkerStatus.RUNNING"
+[03:33:33] abdullllkhan/ai-agent-security-attack has status "KernelWorkerStatus.COMPLETE"
+>> COMPLETE -> submit v15
+4 submissions remaining today.
+>> SUBMIT_ATTEMPTED
+     ref  fileName        date                        description                                                                                                                                                                                                                                                             status                     publicScore  privateScore  
+--------  --------------  --------------------------  ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  -------------------------  -----------  ------------  
+55884917  submission.csv  2026-08-30 07:33:34.633000  v15 OUTPUT-DETECTOR: 2 fast fn probes -> detect model from output (gemma-4 emits thought/channel marker, gpt-oss clean) -> fn(gpt-oss)/nothink(gemma-4). Fixes v14's slow-probe budget starvation (47.26). Gets +18% gemma throughput safely; gpt-oss unchanged (N45).  SubmissionStatus.PENDING                              
+55874450  submission.csv  2026-08-29 19:59:40.780000  v14 THROUGHPUT-ADAPTIVE: probe fn+nothink per cell, lock fastest-firing. Board runs gpt-oss GGUF (locks fn) + gemma-4-26B GGUF (locks nothink, ~+18% gemma throughput). Both cells fire; per-cell optimum vs v10 fn-both.                                               SubmissionStatus.COMPLETE  47.260                     

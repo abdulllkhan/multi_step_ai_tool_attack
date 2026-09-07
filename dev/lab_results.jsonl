@@ -1,0 +1,8 @@
+{"phase": "meta", "ts": 1787884448.8695877, "k": 6, "budget": 240.0}
+{"phase": "A", "style": "v9", "k": 6, "mean_env_s": 0.219, "mean_gen_s": 0.654, "per_cand_s": 0.873, "fire_rate": 0.0, "mean_hops": 0.0, "mean_posts": 0.0, "mean_asst_len": 0, "proj_N_9000s": 0, "proj_norm_score": 0.0}
+{"phase": "A", "style": "v9stop", "k": 6, "mean_env_s": 0.072, "mean_gen_s": 0.194, "per_cand_s": 0.267, "fire_rate": 0.0, "mean_hops": 0.0, "mean_posts": 0.0, "mean_asst_len": 0, "proj_N_9000s": 0, "proj_norm_score": 0.0}
+{"phase": "A", "style": "term", "k": 6, "mean_env_s": 0.072, "mean_gen_s": 0.163, "per_cand_s": 0.235, "fire_rate": 0.0, "mean_hops": 0.0, "mean_posts": 0.0, "mean_asst_len": 0, "proj_N_9000s": 0, "proj_norm_score": 0.0}
+{"phase": "A", "style": "fn", "k": 6, "mean_env_s": 0.071, "mean_gen_s": 0.154, "per_cand_s": 0.225, "fire_rate": 0.0, "mean_hops": 0.0, "mean_posts": 0.0, "mean_asst_len": 0, "proj_N_9000s": 0, "proj_norm_score": 0.0}
+{"phase": "A", "style": "cmd", "k": 6, "mean_env_s": 0.07, "mean_gen_s": 0.157, "per_cand_s": 0.227, "fire_rate": 0.0, "mean_hops": 0.0, "mean_posts": 0.0, "mean_asst_len": 0, "proj_N_9000s": 0, "proj_norm_score": 0.0}
+{"phase": "B", "name": "v9-validate(base)", "config": {"prompt_style": "v9", "prebuilt": 0}, "score": 0.0, "n_findings": 0, "elapsed_s": 229.0}
+{"phase": "B", "name": "v9-prebuilt2000", "config": {"prompt_style": "v9", "prebuilt": 2000}, "error": "ValueError('Pointer argument cannot be accessed from Triton (cpu tensor?)')"}

@@ -1,0 +1,5 @@
+curl download start 14:03:36 -> /home/abdulllkhan/.cache/hf_gguf/gemma-4-26B-A4B-it-UD-Q4_K_M.gguf
+attempt 1 rc=92 size=6.4G 15:23:53
+attempt 2 rc=0 size=16G 15:40:23
+DOWNLOAD COMPLETE size=16G
+-rw-rw-r-- 1 abdulllkhan abdulllkhan 16947541728 Aug 29 15:40 /home/abdulllkhan/.cache/hf_gguf/gemma-4-26B-A4B-it-UD-Q4_K_M.gguf

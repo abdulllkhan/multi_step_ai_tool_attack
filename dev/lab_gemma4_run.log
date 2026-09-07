@@ -1,0 +1,40 @@
+=== downloading google/gemma-4-26B-A4B-it (~52GB, cached token) 23:54:38 ===
+Fetching 8 files:   0%|          | 0/8 [00:00<?, ?it/s]Fetching 8 files:  38%|███▊      | 3/8 [00:00<00:00, 27.27it/s]Fetching 8 files:  75%|███████▌  | 6/8 [00:19<00:07,  3.91s/it]Fetching 8 files:  88%|████████▊ | 7/8 [02:19<00:29, 29.14s/it]Fetching 8 files: 100%|██████████| 8/8 [18:13<00:00, 249.42s/it]Fetching 8 files: 100%|██████████| 8/8 [18:13<00:00, 136.66s/it]
+downloaded to /home/abdulllkhan/.cache/huggingface/hub/models--google--gemma-4-26B-A4B-it/snapshots/4d7ae4984b7db7de8f8457170b3f1a419ee76d52
+=== running gemma_4 lab (fn + multihop) 00:12:52 ===
+loading gemma_4 backend (dtype=bfloat16)...
+Traceback (most recent call last):
+  File "/home/abdulllkhan/Documents/multi_step_tool_attack/.venv/lib/python3.12/site-packages/aicomp_sdk/agents/hf_chat_template/backends/processor.py", line 36, in from_pretrained
+    processor = AutoProcessor.from_pretrained(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/abdulllkhan/Documents/multi_step_tool_attack/.venv/lib/python3.12/site-packages/transformers/models/auto/processing_auto.py", line 328, in from_pretrained
+    return processor_class.from_pretrained(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/abdulllkhan/Documents/multi_step_tool_attack/.venv/lib/python3.12/site-packages/transformers/utils/import_utils.py", line 2363, in __getattribute__
+    requires_backends(cls, cls._backends)
+  File "/home/abdulllkhan/Documents/multi_step_tool_attack/.venv/lib/python3.12/site-packages/transformers/utils/import_utils.py", line 2349, in requires_backends
+    raise ImportError("".join(failed))
+ImportError: 
+Gemma4Processor requires the PIL library but it was not found in your environment. You can install it with pip:
+`pip install pillow`. Please note that you may need to restart your runtime after installation.
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/abdulllkhan/Documents/multi_step_tool_attack/dev/lab_model.py", line 153, in <module>
+    main()
+  File "/home/abdulllkhan/Documents/multi_step_tool_attack/dev/lab_model.py", line 129, in main
+    backend, AgentCls = _backend_and_agent(args.model, args.dtype)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/abdulllkhan/Documents/multi_step_tool_attack/dev/lab_model.py", line 43, in _backend_and_agent
+    try:    return build_gemma4_backend(torch_dtype=dtype), Gemma4Agent
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/abdulllkhan/Documents/multi_step_tool_attack/.venv/lib/python3.12/site-packages/aicomp_sdk/agents/gemma4_agent.py", line 102, in build_gemma4_backend
+    return HFProcessorChatTemplateBackend.from_pretrained(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/abdulllkhan/Documents/multi_step_tool_attack/.venv/lib/python3.12/site-packages/aicomp_sdk/agents/hf_chat_template/backends/processor.py", line 47, in from_pretrained
+    raise exc from err
+RuntimeError: Failed to load HF processor chat-template backend from 'google/gemma-4-26B-A4B-it'
+Model source: google/gemma-4-26B-A4B-it
+=== gemma4 lab done 00:12:54 ===

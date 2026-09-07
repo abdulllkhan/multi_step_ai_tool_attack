@@ -1,0 +1,6 @@
+llama_kv_cache_iswa: using full-size SWA cache (ref: https://github.com/ggml-org/llama.cpp/pull/13194#issuecomment-2868343055)
+llama_kv_cache: the V embeddings have different sizes across layers and FA is not enabled - padding V cache to 2048
+llama_kv_cache: the V embeddings have different sizes across layers and FA is not enabled - padding V cache to 2048
+[gemma_4] trace keys: ['seed', 'user_messages', 'assistant_messages', 'tool_events', 'egress']
+[gemma_4] assistant_messages: ["'<|channel>thought\\n<channel|>OK.'"]
+[gemma_4] tool_events[0] keys: ['name', 'args', 'ok', 'output', 'side_effect', 'scope', 'source', 'error'] | name: http.post
